@@ -1,0 +1,29 @@
+{
+  "name": "tree-sitter-puppet",
+  "version": "0.0.1",
+  "description": "Parser for puppet for tree-sitter",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jby/tree-sitter-puppet.git"
+  },
+  "keywords": [
+    "puppet",
+    "tree-sitter"
+  ],
+  "author": "Jonas Bygdén",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jby/tree-sitter-puppet/issues"
+  },
+  "homepage": "https://github.com/jby/tree-sitter-puppet#readme",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  }
+}
